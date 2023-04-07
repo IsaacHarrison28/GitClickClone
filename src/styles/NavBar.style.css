@@ -1,0 +1,89 @@
+nav{
+    width: 100%;
+    margin: 0;
+    background: #0f0f0f;
+    position: fixed;
+    top: -0rem;
+}
+
+.nav-container{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fcfcfc;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1rem;
+    font-size: 0.8rem;
+}
+
+.hamburger-menu{
+    width: 2rem;
+    height: 2rem;
+}
+
+.hamburger-menu img{
+    height: 100%;
+    width: 100%;
+}
+
+.drop-down-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #0f0f0f;
+    position: absolute;
+    right: 0.5em;
+    top: 3.5em;
+    width: 9rem;
+    border-radius: .5em;
+    padding: 0.5em;
+}
+
+.drop-down-container::before{
+    content: "";
+    background: #0f0f0f;
+    width: 1em;
+    height: 1em;
+    transform: rotate(45deg);
+    position: relative;
+    right: -3.5rem;
+    top: -0.9rem;
+}
+
+.nav-links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.nav-links-container a{
+    color: #0f0f0f;
+    text-decoration: none;
+    padding: 0.3em 0.2em;
+    background: #fcfcfc;
+    width: 100%;
+    margin-top: 0.3em;
+    font-size: 1rem;
+    border-radius: 0.5em;
+}
+
+.nav-button{
+    margin-block: 0.5em;
+}
+
+.nav-button button{
+    padding: 0.5em 3em;
+    font-size: 0.8rem;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+}
