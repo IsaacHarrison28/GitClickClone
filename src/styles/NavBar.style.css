@@ -39,7 +39,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #0f0f0f;
+    background: #fcfcfc;
     position: absolute;
     right: 3%;
     top: 4.2em;
@@ -50,7 +50,7 @@ nav{
 
 .drop-down-container::before{
     content: "";
-    background: #0f0f0f;
+    background: #fcfcfc;
     width: 1em;
     height: 1em;
     transform: rotate(45deg);
@@ -68,10 +68,10 @@ nav{
 }
 
 .nav-links-container a{
-    color: #0f0f0f;
+    color: #fcfcfc;
     text-decoration: none;
-    padding: 0.45em 0.5em;
-    background: #fcfcfc;
+    padding: 0.4em 0.6em;
+    background: #0f0f0f;
     width: 90%;
     margin-top: 0.5em;
     font-size: 1rem;
@@ -79,7 +79,7 @@ nav{
 }
 
 .nav-button{
-    margin-block: 0.5em;
+    margin-block: 1em;
 }
 
 .nav-button button{
@@ -88,4 +88,6 @@ nav{
     border-radius: 0.5em;
     border: none;
     outline: none;
+    background: #0f0f0f;
+    color: #fcfcfc;
 }

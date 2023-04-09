@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+
+
 .main-container{
     background: #0f0f0f;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .banner{
@@ -8,13 +12,6 @@
     min-height: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.banner-content{
-    display: flex;
-    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
@@ -54,11 +51,16 @@
 
 .banner-buttons{
     margin-top: 1em;
-    margin-left: 2.5rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline-start: 0.3em;
 }
 
 .banner-buttons button{
-    padding: 0.4em 1em;
+    padding: 0.5em 1em;
     border: 1px solid #fcfcfc;
     outline: none;
     border-radius: 1em;
