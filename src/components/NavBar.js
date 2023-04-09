@@ -15,7 +15,7 @@ export const NavBar = () => {
                 <div className='hamburger-menu' onClick={() => {
                     setdropDown(!dropDown)
                 }}>
-                    <img src={require("../images/hamburger-icon.png")} alt='' />
+                    <img src={require("../images/menu-bar.png")} alt='' />
                 </div>
 
                {dropDown && <DropDownContent />}

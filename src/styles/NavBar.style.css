@@ -19,12 +19,14 @@ nav{
     align-items: center;
     justify-content: center;
     padding-inline: 1rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .hamburger-menu{
     width: 2rem;
     height: 2rem;
+    background: #fcfcfc;
+    border-radius: 0.7em;
 }
 
 .hamburger-menu img{
@@ -39,9 +41,9 @@ nav{
     flex-direction: column;
     background: #0f0f0f;
     position: absolute;
-    right: 0.5em;
-    top: 3.5em;
-    width: 9rem;
+    right: 3%;
+    top: 4.2em;
+    width: 12rem;
     border-radius: .5em;
     padding: 0.5em;
 }
@@ -53,7 +55,7 @@ nav{
     height: 1em;
     transform: rotate(45deg);
     position: relative;
-    right: -3.5rem;
+    right: -5rem;
     top: -0.9rem;
 }
 
@@ -68,10 +70,10 @@ nav{
 .nav-links-container a{
     color: #0f0f0f;
     text-decoration: none;
-    padding: 0.3em 0.2em;
+    padding: 0.45em 0.5em;
     background: #fcfcfc;
-    width: 100%;
-    margin-top: 0.3em;
+    width: 90%;
+    margin-top: 0.5em;
     font-size: 1rem;
     border-radius: 0.5em;
 }
@@ -81,7 +83,7 @@ nav{
 }
 
 .nav-button button{
-    padding: 0.5em 3em;
+    padding: 0.8em 5em;
     font-size: 0.8rem;
     border-radius: 0.5em;
     border: none;

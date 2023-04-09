@@ -1,15 +1,24 @@
+import '../styles/Home.page.style.css'
+
 export const Home = () => {
     return(
         <div className="main-container">
 
             <div className='banner'>
                 <div className='banner-content'>
-                    <heading>
-                        <h1>Streamline your Dev workflow</h1>
+                    <div className='banner-heading'>
+                        <h1>
+                            <div className='firstLine'>
+                                Streamline your 
+                            </div>
+                            <div className='secondLine'>
+                                Dev workflow
+                            </div>
+                        </h1>
                         <p>
                             This client will really change your development workflow. Integrate with the tool you love.
                         </p>
-                    </heading>
+                    </div>
                     <div className='banner-buttons'>
                         <button type='button' id='download-button'>Download</button>
                         <button type='button' id='learn-more-button'>Learn More</button>
