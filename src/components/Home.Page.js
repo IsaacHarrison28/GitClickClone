@@ -30,36 +30,38 @@ export const Home = () => {
 
                 <div className='quality-div'>
                     <div className='quality-icon'>
-                        {/* This should contain an icon */}
+                        <img src={require('../images/people.png')} alt='' />
                     </div>
                     <div className='quality-description'>
-                        <h2>Heading</h2>
+                        <h2>Collaboration</h2>
                         <p>
-                            Description Text of the quality
+                            Help is a priority, even if it's not directly related to the goals you're trying 
+                            to achieve.
                         </p>
                     </div>
                 </div>
 
                 <div className='quality-div'>
                     <div className='quality-icon'>
-                        {/* This should contain an icon */}
+                        <img src={require('../images/padlock.png')} alt='' />
                     </div>
                     <div className='quality-description'>
-                        <h2>Heading</h2>
+                        <h2>Security</h2>
                         <p>
-                            Description Text of the quality
+                            Manage your work with built-in agile features. We update them regularly.
                         </p>
                     </div>
                 </div>
 
                 <div className='quality-div'>
                     <div className='quality-icon'>
-                        {/* This should contain an icon */}
+                        <img src={require('../images/increasing-stocks-graphic-of-bars.png')} alt='' />
                     </div>
                     <div className='quality-description'>
-                        <h2>Heading</h2>
+                        <h2>Analytics</h2>
                         <p>
-                            Description Text of the quality
+                            View reports and analysis of your teams's work. It helps to do the work more 
+                            efficiently.
                         </p>
                     </div>
                 </div>

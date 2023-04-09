@@ -8,7 +8,7 @@
 
 .banner{
     width: 100%;
-    height: 70vh;
+    height: fit-content;
     min-height: 300px;
     display: flex;
     align-items: center;
@@ -74,4 +74,54 @@
     background: #0f0f0f;
     color: #fcfcfc;
     margin-left: 1em;
+}
+
+.product-quality-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-block: 3.5rem;
+}
+
+.quality-div{
+    width: 80%;
+    max-width: 200px;
+    border: 1px solid #fcfcfc;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.quality-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1em;
+    background: rgb(131, 130, 130);
+    margin: 1em;
+}
+
+.quality-icon img{
+    width: 60%;
+    height: 60%;
+}
+
+.quality-description{
+    margin-top: 0.5em;
+    padding-inline: 1em;
+}
+
+.quality-description h2{
+    color: #fcfcfc;
+    font-size: 1.5rem;
+}
+
+.quality-description p{
+    color: #fcfcfc;
+    font-size: 0.9rem;
+    text-align: justify;
 }
