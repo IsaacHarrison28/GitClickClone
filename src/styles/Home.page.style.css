@@ -249,3 +249,21 @@
     border-radius: 1em;
     padding: 0.5em 3em;
 }
+
+.offer-div:hover .offer{
+    color: #0f0f0f;
+}
+
+.offer-div:hover .text{
+    color: #0f0f0f;
+}
+
+.offer-div:hover .package-price{
+    color: #0f0f0f;
+}
+
+.offer-div:hover .purchase-button button{
+    background: #0f0f0f;
+    border: 1px solid #0f0f0f;
+    color: #fcfcfc;
+}
