@@ -68,40 +68,158 @@ export const Home = () => {
                 
             </div>
 
-            <div className='sneek-pic-container'>
+            {/* <div className='sneek-pic-container'>
                 <div className='sneek-pic-heading'>Heading</div>
                 <div className='sneek-pic-images-container'>
 
                 </div>
-            </div>
+            </div> */}
 
             <div className='pricing-overall-container'>
                 <div className='pricing-heading-text'>
-                    <h2>Heading</h2>
+                    <h2>Our Pricing</h2>
                     <p>
-                    Description text
+                        We offer favorable conditions for your comfortable and productive work.
                     </p>
                 </div>
 
                 <div className='prices-offer-container'>
+
                     <div className='offer-div'>
 
                         <div className='offer'>
-                            <h2>Offer</h2>
+                            <h2>Free</h2>
                             <p>
-                            Offered to who
+                                For individual devs.
                             </p>
                         </div>
 
+                        <hr />
+
                         <div className='package-offers'>
-                            <div className='package-text'></div>
-                            <div className='package-price'></div>
+                            <div className='package-text'>
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>5 GB storage</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>10 GB transfer / month</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>4 users per namespace</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>Local and private repos</p>
+                                </div>
+
+                            </div>
+                            <div className='package-price'>
+                                <h2>$0</h2>
+                                <p> / month </p>
+                            </div>
                             <div className='purchase-button'>
                                 <button type='button'>Buy Now</button>
                             </div>
                         </div>
 
                     </div>
+
+                    <div className='offer-div'>
+
+                        <div className='offer'>
+                            <h2>Premium</h2>
+                            <p>
+                                For a small team.
+                            </p>
+                        </div>
+
+                        <hr />
+
+                        <div className='package-offers'>
+                            <div className='package-text'>
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>60 GB storage</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>Advanced CI/CD</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>Enterprise agile planning</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>Protected branches</p>
+                                </div>
+
+                            </div>
+                            <div className='package-price'>
+                                <h2>$16</h2>
+                                <p> / month </p>
+                            </div>
+                            <div className='purchase-button'>
+                                <button type='button'>Buy Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className='offer-div'>
+
+                        <div className='offer'>
+                            <h2>Ultimate</h2>
+                            <p>
+                                For large companies.
+                            </p>
+                        </div>
+
+                        <hr />
+
+                        <div className='package-offers'>
+                            <div className='package-text'>
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>260 GB storage</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>Security dashboards</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>Free guest users</p>
+                                </div>
+
+                                <div className='text'>
+                                    <div className='tick'>*</div>
+                                    <p>container scanning</p>
+                                </div>
+
+                            </div>
+                            <div className='package-price'>
+                                <h2>$99</h2>
+                                <p> / month </p>
+                            </div>
+                            <div className='purchase-button'>
+                                <button type='button'>Buy Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
 

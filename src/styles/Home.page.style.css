@@ -79,7 +79,7 @@
 .product-quality-container{
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     margin-block: 3.5rem;
@@ -124,4 +124,128 @@
     color: #fcfcfc;
     font-size: 0.9rem;
     text-align: justify;
+}
+
+.pricing-heading-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fcfcfc;
+    margin: auto;
+    width: 80%;
+}
+
+.pricing-heading-text h2{
+    font-size: 1.8rem;
+}
+
+.pricing-heading-text p{
+    font-size: 1rem;
+    text-align: center;
+    max-width: 300px;
+}
+
+.prices-offer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.offer-div{
+    border: 1px solid #fcfcfc;
+    border-radius: 1em;
+    width: 80%;
+    max-width: 250px;
+    min-width: 220px;
+    margin: 1.2em;
+}
+
+.offer-div:hover{
+    background: linear-gradient(68deg, #fcfcfc, #45a0f5);
+    color: #0f0f0f;
+}
+
+.offer{
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0.5rem 1rem;
+   color: #fcfcfc;
+}
+
+.offer p{
+    margin-top: -1rem;
+}
+
+.offer-div hr{
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background: #fcfcfc;
+    border: none;
+}
+
+.package-offers{
+    margin: 0.2em 1em;
+}
+
+.package-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fcfcfc;
+    font-size: 0.95rem;
+}
+
+.text +  .text{
+    margin-top: -1.2em;
+}
+
+.tick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.4em;
+
+}
+
+.package-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fcfcfc;
+}
+
+.package-price h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.package-price p{
+    font-size: 0.95rem;
+    margin-left: 0.5rem;
+}
+
+.purchase-button{
+    margin-bottom: 1em;
+}
+
+.purchase-button button{
+    font-size: 0.95rem;
+    color: #0f0f0f;
+    background: #fcfcfc;
+    border: 1px solid #fcfcfc;
+    outline: none;
+    border-radius: 1em;
+    padding: 0.5em 3em;
 }
