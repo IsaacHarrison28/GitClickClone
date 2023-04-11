@@ -267,3 +267,95 @@
     border: 1px solid #0f0f0f;
     color: #fcfcfc;
 }
+
+@media(width > 900px){
+    
+    .banner{
+        min-height: 550px;
+    }    
+
+    .banner-heading h1{
+        font-size: 3.9rem;
+    }
+
+    .banner-heading p{
+        padding-inline-start: 0.8em;
+        font-size: 1.2rem;
+    }
+
+    .banner-buttons button{
+        padding: 0.8em 2em;
+        font-size: 1rem;
+        margin-top: 2rem;
+        margin-inline-start: 0.8em;
+    }
+
+    .quality-div{
+        max-width: 300px;
+        margin: 1.5em;
+    }
+
+    .quality-icon{
+        width: 4rem;
+        height: 4rem;
+        margin: 1.2em;
+    }
+
+    .quality-description h2{
+        font-size: 2rem;
+    }
+
+    .quality-description p{
+        font-size: 1.2rem;
+        padding-inline: 1em;
+        margin-bottom: 3.5em;
+    }
+
+    .pricing-heading-text h2{
+        font-size: 3rem;
+    }
+    
+    .pricing-heading-text p{
+        font-size: 1.2rem;
+        max-width: 400px;
+    }
+
+    .offer-div{
+        max-width: 320px;
+        margin: 1.5em;
+    }
+
+    .offer{
+        margin: 1rem 2rem;
+    }
+
+    .offer h2{
+        font-size: 2rem;
+    }
+
+    .offer p{
+        margin-top: -0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .package-offers{
+        margin: 0.5em 2em;
+    }
+
+    .text{
+        font-size: 1.2rem;
+    }
+
+    .package-price h2{
+        font-size: 2.3rem;
+    }
+    
+    .package-price p{
+        font-size: 1.2rem;
+    }
+
+    .purchase-button button{
+        font-size: 1rem;
+        padding: 0.8em 3.5em;
+    }
+}

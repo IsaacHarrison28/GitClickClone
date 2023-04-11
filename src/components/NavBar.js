@@ -12,6 +12,17 @@ export const NavBar = () => {
                     <h1>GitClick</h1>
                 </div>
 
+                <div className='desktop-nav'>
+                    <div className="desktop-links">
+                        <a href='#'>GitClick Client</a>
+                        <a href='#'>Pricing</a>
+                        <a href='#'>About</a>
+                    </div>
+                    <div className="desktop-nav-button">
+                        <button type="button">Try Free</button>
+                    </div>
+                </div>
+
                 <div className='hamburger-menu' onClick={() => {
                     setdropDown(!dropDown)
                 }}>
