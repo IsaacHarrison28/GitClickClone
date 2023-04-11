@@ -20,8 +20,12 @@ export const Home = () => {
                         </p>
                     </div>
                     <div className='banner-buttons'>
-                        <button type='button' id='download-button'>Download</button>
-                        <button type='button' id='learn-more-button'>Learn More</button>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                            <button type='button' id='download-button'>Download</button>
+                        </a>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                            <button type='button' id='learn-more-button'>Learn More</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -124,7 +128,9 @@ export const Home = () => {
                                 <p> / month </p>
                             </div>
                             <div className='purchase-button'>
-                                <button type='button'>Buy Now</button>
+                                <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                                    <button type='button'>Buy Now</button>
+                                </a>
                             </div>
                         </div>
 
@@ -169,7 +175,9 @@ export const Home = () => {
                                 <p> / month </p>
                             </div>
                             <div className='purchase-button'>
-                                <button type='button'>Buy Now</button>
+                                <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                                    <button type='button'>Buy Now</button>
+                                </a>
                             </div>
                         </div>
 
@@ -214,7 +222,9 @@ export const Home = () => {
                                 <p> / month </p>
                             </div>
                             <div className='purchase-button'>
-                                <button type='button'>Buy Now</button>
+                                <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                                    <button type='button'>Buy Now</button>
+                                </a>
                             </div>
                         </div>
 

@@ -14,12 +14,14 @@ export const NavBar = () => {
 
                 <div className='desktop-nav'>
                     <div className="desktop-links">
-                        <a href='#'>GitClick Client</a>
-                        <a href='#'>Pricing</a>
-                        <a href='#'>About</a>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank'>GitClick Client</a>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank'>Pricing</a>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank'>About</a>
                     </div>
                     <div className="desktop-nav-button">
-                        <button type="button">Try Free</button>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                            <button type="button">Try Free</button>
+                        </a>
                     </div>
                 </div>
 
@@ -40,12 +42,14 @@ const DropDownContent = () => {
     return(
         <div className='drop-down-container' id='drop-down'>
             <div className="nav-links-container">
-                <a href='#'>GitClick Client</a>
-                <a href='#'>Pricing</a>
-                <a href='#'>About</a>
+                <a href='https://github.com/IsaacHarrison28' target='_blank'>GitClick Client</a>
+                <a href='https://github.com/IsaacHarrison28' target='_blank'>Pricing</a>
+                <a href='https://github.com/IsaacHarrison28' target='_blank'>About</a>
             </div>
             <div className="nav-button">
-                <button type="button">Try Free</button>
+                <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                    <button type="button">Try Free</button>
+                </a>
             </div>
         </div>
     )
