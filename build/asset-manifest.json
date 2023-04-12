@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/IsaacHarrison28/GitClickClone/static/css/main.c2cbbe70.css",
+    "main.js": "/IsaacHarrison28/GitClickClone/static/js/main.93fdf4c6.js",
+    "static/js/787.1067a2cd.chunk.js": "/IsaacHarrison28/GitClickClone/static/js/787.1067a2cd.chunk.js",
+    "static/media/people.png": "/IsaacHarrison28/GitClickClone/static/media/people.448551b683669c09e84c.png",
+    "static/media/increasing-stocks-graphic-of-bars.png": "/IsaacHarrison28/GitClickClone/static/media/increasing-stocks-graphic-of-bars.3c9c4ddefbc5069f5196.png",
+    "static/media/padlock.png": "/IsaacHarrison28/GitClickClone/static/media/padlock.e2d9d4d5bfe402138343.png",
+    "index.html": "/IsaacHarrison28/GitClickClone/index.html",
+    "main.c2cbbe70.css.map": "/IsaacHarrison28/GitClickClone/static/css/main.c2cbbe70.css.map",
+    "main.93fdf4c6.js.map": "/IsaacHarrison28/GitClickClone/static/js/main.93fdf4c6.js.map",
+    "787.1067a2cd.chunk.js.map": "/IsaacHarrison28/GitClickClone/static/js/787.1067a2cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cbbe70.css",
+    "static/js/main.93fdf4c6.js"
+  ]
+}
