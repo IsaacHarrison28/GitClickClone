@@ -20,10 +20,10 @@ export const Home = () => {
                         </p>
                     </div>
                     <div className='banner-buttons'>
-                        <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank' rel="noreferrer">
                             <button type='button' id='download-button'>Download</button>
                         </a>
-                        <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                        <a href='https://github.com/IsaacHarrison28' target='_blank' rel="noreferrer">
                             <button type='button' id='learn-more-button'>Learn More</button>
                         </a>
                     </div>
@@ -128,7 +128,7 @@ export const Home = () => {
                                 <p> / month </p>
                             </div>
                             <div className='purchase-button'>
-                                <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                                <a href='https://github.com/IsaacHarrison28' target='_blank' rel="noreferrer">
                                     <button type='button'>Buy Now</button>
                                 </a>
                             </div>
@@ -175,7 +175,7 @@ export const Home = () => {
                                 <p> / month </p>
                             </div>
                             <div className='purchase-button'>
-                                <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                                <a href='https://github.com/IsaacHarrison28' target='_blank' rel="noreferrer">
                                     <button type='button'>Buy Now</button>
                                 </a>
                             </div>
@@ -222,7 +222,7 @@ export const Home = () => {
                                 <p> / month </p>
                             </div>
                             <div className='purchase-button'>
-                                <a href='https://github.com/IsaacHarrison28' target='_blank'>
+                                <a href='https://github.com/IsaacHarrison28' target='_blank' rel="noreferrer">
                                     <button type='button'>Buy Now</button>
                                 </a>
                             </div>
